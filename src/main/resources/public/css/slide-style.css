@@ -1,0 +1,163 @@
+@CHARSET "ISO-8859-1";
+
+.slide-wrap {
+	width: 988px;
+	margin: 0 auto;
+	position: relative; /*z-index:900*/
+}
+
+.shadow .bx-pager a, .promo-slider .bx-prev, .promo-slider .bx-next,
+	.change-location .unselected a, .feedbacks a, .ready-to-work .get-a-quote-btn a,
+	.jcarousel .jcarousel-next, .jcarousel .jcarousel-prev, .pwork figcaption .platforms i,
+	.pwork .figcaption .platforms i, .recent-tweet .twitter a, .works .sort li a,
+	.work-container .close a, .work-container .bx-pager a, .work-container .bx-prev,
+	.work-container .bx-next, .more-works a, .attach .btn a, .attach .btn span,
+	.subscribe a, .form-submit input, .nextpostslink, .previouspostslink,
+	.services section a, .page-id-11 .main .offices a, .reload a, #toTop,
+	.hosting-tabs li
+a {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999em;
+}
+
+.shadow {
+	
+}
+
+.promo-slider {
+	position: relative;
+	left: 0
+}
+
+.promo-slider ul {
+	width: 988px;
+	height: 296px
+}
+
+.promo-slider li {
+	position: relative;
+	float: left
+}
+
+.teaser {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 400px
+}
+
+.teaser h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #2a2b2e;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+}
+
+.teaser p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	text-align: justify;
+}
+
+.teaser .readmore {
+	background-image: url(../images/more-bt-bg.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 104px;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.teaser .readmore a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.teaser .readmore a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.shadow .bx-pager {
+	float: left;
+	margin-left: 350px;
+}
+
+.shadow .bx-pager a {
+	float: left;
+	width: 13px;
+	height: 13px;
+	background-image: url(../images/slider-pager.png);
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.shadow .bx-pager a.link {
+	background-position: 0 0
+}
+
+.shadow .bx-pager a.link:hover, .shadow .bx-pager a.link.current {
+	background-position: 0 -39px
+}
+
+.slide-wrap {
+	height: 296px;
+	overflow: hidden
+}
+
+.shadow {
+	height: 30px;
+	margin: -30px 0 0;
+	position: relative;
+	z-index: 1000
+}
+
+.shadow .slide-wrap {
+	height: auto
+}
+
+.home
+.anythingSlider {
+	display: block;
+	margin: 0 auto;
+	overflow: visible !important;
+	position: relative
+}
+
+.anythingSlider .anythingWindow {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+
+.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	overflow: visible !important;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0
+}

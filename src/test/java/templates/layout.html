@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th=“http://www.thymeleaf.org”><head th:fragment=“site-head”>
+
+<link rel=“stylesheet” href=“../public/css/styles.css” th:href=“@{/css/style.css}” />
+<link rel=“stylesheet” href=“../public/css/styles.css” th:href=“@{/css/style1.css}” />
+<link rel=“stylesheet” href=“../public/css/styles.css” th:href=“@{/css/slide-style.css}” />
+
+<script src=“../public/js/jquery-1.11.1.min.js” th:src=“@{/js/jquery-1.11.1.min.js}”></script>
+<script src=“../public/js/default.include.a7088f.js” th:src=“@{/js/default.include.a7088f.js}”></script>
+<script src=“../public/js/jquery.anythingslider.min.js” th:src=“@{/js/jquery.anythingslider.min.js}”></script>
+<script src=“../public/js/jquery.cycle.js” th:src=“@{/js/jquery.cycle.js}”></script>
+<script src=“../public/js/mycode.js” th:src=“@{/js/mycode.js}”></script>
+<script src=“../public/js/registration.js” th:src=“@{/js/registration.js}”></script>
+<script src=“../public/js/slideshow.js” th:src=“@{/js/slideshow.js}”></script>
+<meta th:include=“this :: head” th:remove=“tag”/>
+</head><body><header th:fragment=“site-header”>
+<a href=“index.html” th:href=“@{/}”><img src="../public/images/logo.jpg" th:src="@{/images/logo.jpg}" /></a>
+<a href="index.html" th:href="@{/}">Home</a>
+<a href="users/login.html" th:href="@{/users/login}">Login</a>
+
+</div>
+</header> <h1>Welcome</h1>
+<p>Welcome to the Spring MVC Blog.</p> 
+<footer th:fragment="site-footer">
+&copy; Spring MVC Blog System, 2016
+</footer></body></html>
