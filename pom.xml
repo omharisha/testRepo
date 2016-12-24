@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>MVCBlog</name>
-	<description>Example Project for Spring Boot</description>
+	<description>Example Project for tis</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
